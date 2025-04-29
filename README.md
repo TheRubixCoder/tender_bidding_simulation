@@ -46,16 +46,27 @@ This Streamlit application provides a hands-on simulation of different tender (a
 
 ## Running the Application
 
-To run this application, you need to have Python and Streamlit installed.
-
-1.  **Install Streamlit:**
+1.  **Clone the Repository:**
+    ```bash
+    git clone <repository_url>
+    ```
+    *(Replace `<repository_url>` with the actual URL of the repository containing the `tender_app.py` file.)*
+2.  **Navigate to the Cloned Repository:**
+    ```bash
+    cd <repository_name>
+    ```
+    *(Replace `<repository_name>` with the name of the directory that was created when you cloned the repository.)*
+3.  **Install Dependencies:** If there's a `requirements.txt` file in the repository, install the necessary libraries:
+    ```bash
+    pip install -r requirements.txt
+    ```
+    Otherwise, ensure you have Streamlit, NumPy, and PyTz installed:
     ```bash
     pip install streamlit numpy pytz
     ```
-2.  **Save the code:** Save the provided Python code as a `.py` file (e.g., `app.py`).
-3.  **Run the application:** Open your terminal or command prompt, navigate to the directory where you saved the file, and run:
+4.  **Run the Application:** Open your terminal or command prompt, navigate to the cloned repository, and run:
     ```bash
-    streamlit run app.py
+    streamlit run tender_app.py
     ```
 
 This will open the application in your web browser.
