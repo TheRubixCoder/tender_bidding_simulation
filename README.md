@@ -48,15 +48,13 @@ This Streamlit application provides a hands-on simulation of different tender (a
 
 1.  **Clone the Repository:**
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/TheRubixCoder/tender_bidding_simulation.git
     ```
-    *(Replace `<repository_url>` with the actual URL of the repository containing the `tender_app.py` file.)*
 2.  **Navigate to the Cloned Repository:**
     ```bash
-    cd <repository_name>
+    cd tender_bidding_simulation
     ```
-    *(Replace `<repository_name>` with the name of the directory that was created when you cloned the repository.)*
-3.  **Install Dependencies:** If there's a `requirements.txt` file in the repository, install the necessary libraries:
+3.  **Install Dependencies:** Install the necessary libraries inside `requirements.txt` file:
     ```bash
     pip install -r requirements.txt
     ```
@@ -66,7 +64,7 @@ This Streamlit application provides a hands-on simulation of different tender (a
     ```
 4.  **Run the Application:** Open your terminal or command prompt, navigate to the cloned repository, and run:
     ```bash
-    streamlit run tender_app.py
+    streamlit run app.py
     ```
 
 This will open the application in your web browser.
