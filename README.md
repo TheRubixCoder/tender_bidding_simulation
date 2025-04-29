@@ -52,10 +52,10 @@ To run this application, you need to have Python and Streamlit installed.
     ```bash
     pip install streamlit numpy pytz
     ```
-2.  **Save the code:** Save the provided Python code as a `.py` file (e.g., `tender_app.py`).
+2.  **Save the code:** Save the provided Python code as a `.py` file (e.g., `app.py`).
 3.  **Run the application:** Open your terminal or command prompt, navigate to the directory where you saved the file, and run:
     ```bash
-    streamlit run tender_app.py
+    streamlit run app.py
     ```
 
 This will open the application in your web browser.
